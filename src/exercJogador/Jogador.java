@@ -55,7 +55,7 @@ public class Jogador {
         int idade = calcularIdade();
 
         switch (this.posicao) {
-            case "Desfesa":
+            case "Defesa":
                 if(idade < 40) {
                     return 40 - idade;
                 }

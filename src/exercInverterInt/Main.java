@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void inverter(int numero){
-
+        int aux = numero;
         int i = 0;
 
         while (numero > 0) {
@@ -20,7 +20,7 @@ public class Main {
             numero /= 10;
         }
 
-        System.out.printf("Número invertido número : %d.\n", i);
+        System.out.printf("%d -> %d.\n",aux, i);
 
     }
 }
